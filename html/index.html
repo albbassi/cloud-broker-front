@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="color: aliceblue;">Gestão Contratos</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+</head>
+<body onload="inicializaFuncoes()">
+    <header>
+        <div class="banner">
+           <img src="../img/contrato1.jpg" alt="y">
+        </div>
+    </header>
+
+    <section class="InsereCliente">
+        <h3 style="padding-left: 1%;color: aliceblue;">Inserir cliente </h3>
+        <input type="text" id="newNome" placeholder="Insira o nome:">
+        <input type="text" id="newCnpj" placeholder="Insira o CNPJ:"/>
+        <input type="text" id="newEndereco" placeholder="Insira o endereço:">
+        <button onclick="newCliente()" class="addBtn" id="addBtn">Cadastrar</button>
+        <button onclick="editarCliente()" class="editBtn" id="editBtn" title= "Editar!" hidden>Editar</button>
+        <button onclick="desistirEditarCliente()" class="desistBtn" id="desistBtn" title="Desistir!" hidden>X</button>
+    </section>
+    <h1 style="text-align: center;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;color: aliceblue;">Clientes Cadastrados</h1>
+    <!-- Tabela com items existentes -->
+    <section class="items">
+        <table id="TabelaCliente" onload="getClientes()">
+            <tr>
+                <th style="width: 40%;">Cliente</th>
+                <th style="width: 20%;">CNPJ</th>
+                <th style="width: 40%;">Endereço</th>
+                <th><img src="https://cdn-icons-png.flaticon.com/128/1159/1159633.png" width="15px" height="15px"></th>
+                <th><img src="https://cdn-icons-png.flaticon.com/512/126/126468.png" width="15px" height="15px"></th>
+            </tr>
+        </table>
+    </section>
+    <br>
+    <script src="../js/scripts.js"></script>
+    <footer>
+        <hr>
+        <h6 style="text-align: right;padding-right: 1%;color: aliceblue;">MVP Desenvolvimento Full Stack Básico
+            <a href="https://especializacao.ccec.puc-rio.br/especializacao/desenvolvimento-full-stack?utm_feeditemid=&utm_device=c&utm_term=puc%20rio%20full%20stack&utm_source=google&utm_medium=ppc&utm_campaign=PUCRIO_PRF_CONV_SEARCH_POS-GRAD_Always-On_BR_CURSOS-INSTITUCIONAL&hsa_cam=20866781935&hsa_grp=156117049665&hsa_mt=b&hsa_src=g&hsa_ad=684608462294&hsa_acc=1652095629&hsa_net=adwords&hsa_kw=puc%20rio%20full%20stack&hsa_tgt=kwd-2266376752739&hsa_ver=3&gad_source=1&gclid=EAIaIQobChMI_7OG0MO3hQMVr0VIAB1kDwXSEAAYASAAEgKkxfD_BwE">
+            - PUC Rio</a> ®2024</h6>
+    </footer>
+    
+</body>
+</html>
