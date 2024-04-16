@@ -15,7 +15,7 @@ Como o projeto ainda está em uma fase inicial, não possui um servidor web.
 
 Será necessário executar o servidor backend do projeto **cloud-broker-api** que provê os endpoints para comunicação com a base de dados.
 
-Após clonar os repositório **cloud-broker-api** e **cloud-broker-font**, é necessário executar a aplicação de backend que tem seu passo a passo descrito [aqui] <https://github.com/albbassi/cloud-broker-api>.
+Após clonar os repositório **cloud-broker-api** e **cloud-broker-font**, é necessário executar a aplicação de backend que tem seu passo a passo descrito [aqui] (https://github.com/albbassi/cloud-broker-api).
 
 Em seguida com o browser de sua preferência, abra o arquivo /cloud-broker-front/html/index.html
 
