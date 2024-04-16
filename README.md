@@ -17,6 +17,6 @@ Será necessário executar o servidor backend do projeto **cloud-broker-api** qu
 
 Após clonar os repositório **cloud-broker-api** e **cloud-broker-front**, é necessário executar a aplicação de backend que tem seu passo a passo descrito [aqui](https://github.com/albbassi/cloud-broker-api).
 
-Em seguida com o browser de sua preferência, abra o arquivo /cloud-broker-front/html/index.html
+Em seguida com o browser de sua preferência, abra o arquivo "/cloud-broker-front/html/index.html"
 
 Divirta-se!
