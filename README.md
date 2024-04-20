@@ -1,6 +1,6 @@
 # Frontend Controle de Contratos - MVP
 
-Este projeto integra o MVP destinado à disciplina de **Desenvolvimento Full Stack Básico**.
+Este projeto integra o MVP da disciplina **Desenvolvimento Full Stack Básico**.
 
 O propósito principal deste trabalho é desenvolver um frontend que ofereça funcionalidades para o cadastro simplificado de clientes em um banco de dados SQLite.
 
