@@ -19,4 +19,4 @@ Após clonar os repositório **cloud-broker-api** e **cloud-broker-front**, é n
 
 Em seguida com o browser de sua preferência, abra o arquivo "/cloud-broker-front/html/index.html"
 
-Divirta-se!
+**Divirta-se!**
