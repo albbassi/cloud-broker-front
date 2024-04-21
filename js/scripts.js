@@ -226,11 +226,11 @@ const insertList = (newNome, newCnpj, newEndereco) => {
  * @returns Não possui retorno. 
  */
 const closeButton = (parent) => {
-  let span = document.createElement("span");
+  let btn = document.createElement("button");
   let txt = document.createTextNode("\u00D7");
-  span.className = "close";
-  span.appendChild(txt);
-  parent.appendChild(span);
+  btn.className = "close";
+  btn.appendChild(txt);
+  parent.appendChild(btn);
 }
 
 
@@ -245,15 +245,13 @@ const closeButton = (parent) => {
  */
 
 const editButton = (parent) => {
-  let span = document.createElement("span");
-  //let txt = document.createTextNode("\u270e");
+  let btn = document.createElement("btn");
   let img = document.createElement('img');
   img.src = ("https://cdn-icons-png.flaticon.com/16/1159/1159633.png");
-  span.className = "edit";
-  //span.appendChild(txt);
-  span.appendChild(img);
-  span.addEventListener("click", editCliente);
-  parent.appendChild(span);
+  btn.className = "edit";
+  btn.appendChild(img);
+  btn.addEventListener("click", editCliente);
+  parent.appendChild(btn);
   editCliente();
 }
 
